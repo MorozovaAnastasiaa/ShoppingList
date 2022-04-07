@@ -1,6 +1,6 @@
-package com.myhome.application.views.cardlist;
+package com.shoppinglist.application.views.cardlist;
 
-import com.myhome.application.views.MainLayout;
+import com.shoppinglist.application.views.MainLayout;
 import com.vaadin.flow.component.grid.Grid;
 import com.vaadin.flow.component.grid.GridVariant;
 import com.vaadin.flow.component.html.Div;

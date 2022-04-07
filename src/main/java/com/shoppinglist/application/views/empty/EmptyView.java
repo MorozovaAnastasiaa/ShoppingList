@@ -1,18 +1,20 @@
-package com.myhome.application.views.about;
+package com.shoppinglist.application.views.empty;
 
-import com.myhome.application.views.MainLayout;
+import com.shoppinglist.application.views.MainLayout;
 import com.vaadin.flow.component.html.H2;
 import com.vaadin.flow.component.html.Image;
 import com.vaadin.flow.component.html.Paragraph;
 import com.vaadin.flow.component.orderedlayout.VerticalLayout;
 import com.vaadin.flow.router.PageTitle;
 import com.vaadin.flow.router.Route;
+import com.vaadin.flow.router.RouteAlias;
 
-@PageTitle("About")
-@Route(value = "about", layout = MainLayout.class)
-public class AboutView extends VerticalLayout {
+@PageTitle("Empty")
+@Route(value = "empty", layout = MainLayout.class)
+//@RouteAlias(value = "", layout = MainLayout.class)
+public class EmptyView extends VerticalLayout {
 
-    public AboutView() {
+    public EmptyView() {
         setSpacing(false);
 
         Image img = new Image("images/empty-plant.png", "placeholder plant");

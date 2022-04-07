@@ -1,9 +1,7 @@
-package com.myhome.application.views;
+package com.shoppinglist.application.views;
 
-
-import com.myhome.application.views.about.AboutView;
-import com.myhome.application.views.cardlist.CardListView;
-import com.myhome.application.views.myshopping.MyShoppingView;
+import com.shoppinglist.application.views.about.AboutView;
+import com.shoppinglist.application.views.shoppinglist.ShoppingListView;
 import com.vaadin.flow.component.Component;
 import com.vaadin.flow.component.applayout.AppLayout;
 import com.vaadin.flow.component.applayout.DrawerToggle;
@@ -120,9 +118,11 @@ public class MainLayout extends AppLayout {
 
     private MenuItemInfo[] createMenuItems() {
         return new MenuItemInfo[]{ //
-                new MenuItemInfo("MyShopping", "la la-file", MyShoppingView.class), //
+                //new MenuItemInfo("Empty", "la la-file", EmptyView.class), //
 
-                new MenuItemInfo("Card List", "la la-list", CardListView.class), //
+                new MenuItemInfo("ShoppingList", "la la-globe", ShoppingListView.class), //
+
+                //new MenuItemInfo("Card List", "la la-list", CardListView.class), //
 
                 new MenuItemInfo("About", "la la-file", AboutView.class), //
 

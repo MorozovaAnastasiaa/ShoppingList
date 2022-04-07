@@ -1,4 +1,4 @@
-package com.myhome.application.views.cardlist;
+package com.shoppinglist.application.views.cardlist;
 
 public class Person {
 

@@ -16,8 +16,9 @@
 .card-list-view .card {
   background-color: var(--lumo-base-color);
   border-radius: var(--lumo-border-radius);
-  box-shadow: var(--lumo-box-shadow-xs);
-  padding: calc(var(--lumo-space-s) * 1.5) var(--lumo-space-m);
+  box-shadow: var(--lumo-box-shadow-s);
+  padding: calc(var(--lumo-space-s) * 1.1) var(--lumo-space-m);
+  border-spacing: var(15px 50px);
 }
 
 .card-list-view img {
@@ -35,7 +36,7 @@
 .card-list-view .name {
   font-size: var(--lumo-font-size-s);
   font-weight: bold;
-  margin-right: var(--lumo-space-s);
+  margin-right: var(--lumo-space-xs);
 }
 
 .card-list-view .date {

@@ -6,11 +6,11 @@
     <groupId>com.myhome.application</groupId>
     <artifactId>shoppinglist</artifactId>
     <name>ShoppingList</name>
-    <version>1.0-SNAPSHOT</version>
+    <version>1</version>
     <packaging>jar</packaging>
 
     <properties>
-        <java.version>17</java.version>
+        <java.version>11</java.version>
         <vaadin.version>22.0.5</vaadin.version>
     </properties>
 
@@ -122,6 +122,11 @@
             <artifactId>webdrivermanager</artifactId>
             <version>4.4.0</version>
             <scope>test</scope>
+        </dependency>
+        <dependency>
+            <groupId>org.postgresql</groupId>
+            <artifactId>postgresql</artifactId>
+            <scope>runtime</scope>
         </dependency>
     </dependencies>
 
